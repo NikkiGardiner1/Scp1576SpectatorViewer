@@ -9,7 +9,7 @@ public class MainClass : Plugin<Config>
     public override string Author { get; } = "xNexusACS";
     public override string Name { get; } = "Scp1576SpectatorViewer";
     public override string Prefix { get; } = "Scp1576SpectatorViewer";
-    public override Version Version { get; } = new(1, 0, 0);
+    public override Version Version { get; } = new(1, 0, 1);
     public override Version RequiredExiledVersion { get; } = new(7, 0, 0);
     
     public Harmony Harmony { get; private set; }
